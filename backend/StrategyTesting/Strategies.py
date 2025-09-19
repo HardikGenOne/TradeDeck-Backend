@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from .Backtest import Backtest
-import pandas_ta as ta
+# import pandas_ta as ta
 
 class Strategy:
     def __init__(self,df):
