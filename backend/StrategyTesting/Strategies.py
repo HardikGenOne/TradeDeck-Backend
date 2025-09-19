@@ -33,7 +33,7 @@ class Strategy:
 
                     df_copy["signal"] = np.where(df_copy["SMA_Min"] > df_copy["SMA_Max"], 1, 0)
 
-                    bt = Backtest(df_copy, signal_col="signal", price_col="Close")
+                    bt = Backtest(df_copy)
                     result = bt.summary()
                     result_list.append({f"{sMA}_{lMA}": result})
         # print("Results from Strategies.py :",result_list)
