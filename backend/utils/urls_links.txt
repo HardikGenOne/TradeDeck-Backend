@@ -1,0 +1,5 @@
+fast-api: url => "https://tradedeck.onrender.com/"
+
+NSE urls :-
+    NIFTY50 HeatMap => "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%2050"
+    top Gainers => "https://www.nseindia.com/api/live-analysis-variations?index=gainers"

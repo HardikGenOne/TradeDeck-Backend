@@ -1,0 +1,14 @@
+smartapi-python
+logzero
+pyotp
+websocket
+fastapi
+uvicorn
+yfinance
+pandas
+numpy 
+nsepy
+httpx
+requests
+bs4 
+

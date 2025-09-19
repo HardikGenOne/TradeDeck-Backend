@@ -1,0 +1,8 @@
+{
+    "builds": [
+      { "src": "utils/postAPI.py", "use": "@vercel/python" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "utils/postAPI.py" }
+    ]
+  }
